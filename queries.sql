@@ -19,7 +19,7 @@ select name, escape_attempts from animals where weight_kg > 10.5
 select name from animals where neutered
 
 --Find all animals not named Gabumon.
-select name from animals where name not like 'Gabumon'
+select name from animals where name != 'Gabumon'
 
 --Find all animals with a weight between 10.4kg and 17.3kg (including the animals with the weights that equals precisely 10.4kg or 17.3kg)
 select name from animals where weight_kg >= 10.4 and weight_kg <= 17.3
