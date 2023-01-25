@@ -56,7 +56,7 @@ INSERT INTO specializations (species_id, vets_id) VALUES (2, 3);
 INSERT INTO specializations (species_id, vets_id) VALUES (2, 4);
 
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (3, 1, 'May 24, 2020');
-INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (3, 3, 'Jun 22, 2020');
+INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (3, 3, 'Jul 22, 2020');
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (4, 4, 'Feb 02, 2021');
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (5, 2, 'Jan 05, 2020');
 INSERT INTO visits (animals_id, vets_id, date_of_visit) VALUES (5, 2, 'Mar 08, 2020');
