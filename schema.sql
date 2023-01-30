@@ -47,3 +47,11 @@ ALTER TABLE specializations ADD CONSTRAINT vets_fkey FOREIGN KEY (vets_id) REFER
 create table visits (animals_id INT, vets_id INT, date_of_visit date);
 ALTER TABLE visits ADD CONSTRAINT animals_fkey FOREIGN KEY (animals_id) REFERENCES animals(id);
 ALTER TABLE visits ADD CONSTRAINT vets_fkey FOREIGN KEY (vets_id) REFERENCES vets(id);
+
+-- PROJECT 5 PERFORMANCE AUDIT
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+CREATE INDEX vet_id_asc ON vets(id ASC);
+CREATE INDEX animals_id_asc ON animals(id ASC);
+CREATE INDEX email_asc ON owners(email ASC);
